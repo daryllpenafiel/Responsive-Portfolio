@@ -154,3 +154,82 @@ input #message {
 form p {
     line-height: 1em;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    .main-content {
+        width: 70%;
+        margin-left: 40px;
+    }
+
+   .navbar {
+        margin-left: 20px;
+    }
+
+    .nav-items {
+        margin-right: 25px;
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    div.main-content {
+        width: 96%;
+        margin: 20px;
+    }
+
+    .navbar {
+        margin-left: 20px;
+        width: 760px;
+    }
+
+    .nav-items {
+        margin-right: 50px;
+    }
+
+    #headshot {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .logo {
+        width: 640px;
+        position: static;
+        height: 50px;
+    }
+
+    #headshot {
+        height: 300px;
+        width: 300px;
+        display: block;
+        float: none;
+        margin: auto;
+    }
+
+    .main-content {
+        width: 600px;
+        margin-right: 20px;
+        margin-left: 20px;
+        clear: both;
+        margin-top: 40px;
+    }
+
+    h1.name {
+        padding: 0px;
+        line-height: 10px;
+    }
+
+    div.nav-items {
+        display: block;
+        width: 640px;
+        float: none;
+        background-color: white;
+        height: 120px;
+        padding-left: 164px;
+    }
+}
+
